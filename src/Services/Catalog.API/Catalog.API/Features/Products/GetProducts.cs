@@ -1,33 +1,34 @@
+using Catalog.API.Infrastructure.Data;
+using Mapster;
+using MediatR;
+using Microsoft.EntityFrameworkCore;
+
 namespace Catalog.API.Features.Products;
 
 public record ProductDto(Guid Id, string Name, decimal Price);
 public record GetProductsResponse(IEnumerable<ProductDto> Products);
 
-public static class GetProductsEndpoint
+public record GetProductsQuery : IRequest<GetProductsResponse>;
+
+public class GetProductsQueryHandler : IRequestHandler<GetProductsQuery, GetProductsResponse>
 {
-    public static void MapGetProductsEndpoint(this IEndpointRouteBuilder app)
+    private readonly CatalogContext _context;
+
+    public GetProductsQueryHandler(CatalogContext context)
+    // Inject the DbContext
     {
-        app.MapGet("/", HandleGetProductsAsync)
-                    .WithName("GetProducts")
-                    .Produces<GetProductsResponse>(StatusCodes.Status200OK)
-                    .Produces(StatusCodes.Status404NotFound)
-                    .WithSummary("Get All Products");
+        _context = context;
     }
 
-    private static async Task<IResult> HandleGetProductsAsync()
+    public async Task<GetProductsResponse> Handle(GetProductsQuery query, CancellationToken cancellationToken)
     {
-        var products = new List<ProductDto>
-        {
-            new ProductDto(Guid.NewGuid(), "Laptop", 1500.00m),
-            new ProductDto(Guid.NewGuid(), "Mouse", 70.00m)
-        };
+        var products = await _context.Products
+            .AsNoTracking()
+            .ToListAsync(cancellationToken);
 
-        if (products.Count == 0)
-        {
-            return Results.NotFound();
-        }
+        // Use Mapster to map List<Product> to List<ProductDto>
+        var productDtos = products.Adapt<IEnumerable<ProductDto>>();
 
-        var response = new GetProductsResponse(products);
-        return Results.Ok(response);
+        return new GetProductsResponse(productDtos);
     }
 }
