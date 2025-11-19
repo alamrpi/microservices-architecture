@@ -1,0 +1,57 @@
+[
+  {
+    "ContainingType": "Catalog.API.Features.Products.ProductEndpoints",
+    "Method": "HandleGetProducts",
+    "RelativePath": "products/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Catalog.API.Features.Products.GetProductsResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Products"
+    ],
+    "EndpointName": "GetProducts"
+  },
+  {
+    "ContainingType": "Catalog.API.Features.Products.ProductEndpoints",
+    "Method": "HandleCreateProduct",
+    "RelativePath": "products/",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Catalog.API.Features.Products.CreateProductRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Guid",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 201
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Products"
+    ],
+    "EndpointName": "CreateProduct"
+  }
+]

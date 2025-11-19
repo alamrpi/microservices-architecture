@@ -1,0 +1,84 @@
+[
+  {
+    "ContainingType": "Basket.API.Features.BasketEndpoints",
+    "Method": "HandleStoreBasket",
+    "RelativePath": "basket/",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "basket",
+        "Type": "Basket.API.Core.Entities.ShoppingCart",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Basket.API.Core.Entities.ShoppingCart",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 201
+      }
+    ],
+    "Tags": [
+      "Basket"
+    ],
+    "EndpointName": "StoreBasket"
+  },
+  {
+    "ContainingType": "Basket.API.Features.BasketEndpoints",
+    "Method": "HandleGetBasket",
+    "RelativePath": "basket/{userName}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Basket.API.Core.Entities.ShoppingCart",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Basket"
+    ],
+    "EndpointName": "GetBasket"
+  },
+  {
+    "ContainingType": "Basket.API.Features.BasketEndpoints",
+    "Method": "HandleDeleteBasket",
+    "RelativePath": "basket/{userName}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      }
+    ],
+    "Tags": [
+      "Basket"
+    ],
+    "EndpointName": "DeleteBasket"
+  }
+]
