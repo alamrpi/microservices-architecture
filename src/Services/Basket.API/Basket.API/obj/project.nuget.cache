@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "DUCGSnxk2dc=",
+  "dgSpecHash": "RRDKPJO0888=",
   "success": true,
   "projectFilePath": "D:\\Resources\\Projects\\E-Shop-Global\\src\\Services\\Basket.API\\Basket.API\\Basket.API.csproj",
   "expectedPackageFiles": [
@@ -26,6 +26,9 @@
     "C:\\Users\\Asus\\.nuget\\packages\\mapster\\7.4.0\\mapster.7.4.0.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\mapster.core\\1.2.1\\mapster.core.1.2.1.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\marten\\8.15.4\\marten.8.15.4.nupkg.sha512",
+    "C:\\Users\\Asus\\.nuget\\packages\\masstransit\\8.5.5\\masstransit.8.5.5.nupkg.sha512",
+    "C:\\Users\\Asus\\.nuget\\packages\\masstransit.abstractions\\8.5.5\\masstransit.abstractions.8.5.5.nupkg.sha512",
+    "C:\\Users\\Asus\\.nuget\\packages\\masstransit.rabbitmq\\8.5.5\\masstransit.rabbitmq.8.5.5.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\mediatr\\13.1.0\\mediatr.13.1.0.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.11\\microsoft.aspnetcore.openapi.9.0.11.nupkg.sha512",
@@ -58,6 +61,8 @@
     "C:\\Users\\Asus\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.0\\microsoft.extensions.dependencyinjection.abstractions.10.0.0.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\microsoft.extensions.diagnostics\\9.0.0\\microsoft.extensions.diagnostics.9.0.0.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\microsoft.extensions.diagnostics.abstractions\\9.0.0\\microsoft.extensions.diagnostics.abstractions.9.0.0.nupkg.sha512",
+    "C:\\Users\\Asus\\.nuget\\packages\\microsoft.extensions.diagnostics.healthchecks\\9.0.0\\microsoft.extensions.diagnostics.healthchecks.9.0.0.nupkg.sha512",
+    "C:\\Users\\Asus\\.nuget\\packages\\microsoft.extensions.diagnostics.healthchecks.abstractions\\9.0.0\\microsoft.extensions.diagnostics.healthchecks.abstractions.9.0.0.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\9.0.0\\microsoft.extensions.fileproviders.abstractions.9.0.0.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\9.0.0\\microsoft.extensions.fileproviders.physical.9.0.0.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\9.0.0\\microsoft.extensions.filesystemglobbing.9.0.0.nupkg.sha512",
@@ -88,6 +93,7 @@
     "C:\\Users\\Asus\\.nuget\\packages\\npgsql.nettopologysuite\\9.0.2\\npgsql.nettopologysuite.9.0.2.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\pipelines.sockets.unofficial\\2.2.8\\pipelines.sockets.unofficial.2.2.8.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\polly.core\\8.5.2\\polly.core.8.5.2.nupkg.sha512",
+    "C:\\Users\\Asus\\.nuget\\packages\\rabbitmq.client\\7.1.2\\rabbitmq.client.7.1.2.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\spectre.console\\0.50.0\\spectre.console.0.50.0.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\stackexchange.redis\\2.7.27\\stackexchange.redis.2.7.27.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\swashbuckle.aspnetcore\\10.0.1\\swashbuckle.aspnetcore.10.0.1.nupkg.sha512",
@@ -112,6 +118,7 @@
     "C:\\Users\\Asus\\.nuget\\packages\\system.text.encoding.codepages\\7.0.0\\system.text.encoding.codepages.7.0.0.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\system.text.json\\8.0.5\\system.text.json.8.0.5.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\system.threading.channels\\7.0.0\\system.threading.channels.7.0.0.nupkg.sha512",
+    "C:\\Users\\Asus\\.nuget\\packages\\system.threading.ratelimiting\\8.0.0\\system.threading.ratelimiting.8.0.0.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\weasel.core\\8.3.0\\weasel.core.8.3.0.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\weasel.postgresql\\8.3.0\\weasel.postgresql.8.3.0.nupkg.sha512"

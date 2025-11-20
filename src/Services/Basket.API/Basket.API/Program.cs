@@ -1,9 +1,10 @@
-using Marten;
-using MediatR;
-using FluentValidation;
 using Basket.API.Common;
-using JasperFx;
 using Basket.API.Protos;
+using FluentValidation;
+using JasperFx;
+using Marten;
+using MassTransit;
+using MediatR;
 
 var builder = WebApplication.CreateBuilder(args);
 var assembly = typeof(Program).Assembly;
@@ -21,6 +22,17 @@ builder.Services.AddMediatR(config =>
 builder.Services.AddValidatorsFromAssembly(assembly);
 builder.Services.AddTransient(typeof(IPipelineBehavior<,>), typeof(Basket.API.Common.Behaviors.ValidationBehavior<,>));
 
+builder.Services.AddMassTransit(config =>
+{
+    config.UsingRabbitMq((context, cfg) =>
+    {
+        cfg.Host("localhost", "/", h =>
+        {
+            h.Username("guest");
+            h.Password("guest");
+        });
+    });
+});
 
 builder.Services.AddMarten(options =>
 {

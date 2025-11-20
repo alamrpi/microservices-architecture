@@ -80,5 +80,36 @@
       "Basket"
     ],
     "EndpointName": "DeleteBasket"
+  },
+  {
+    "ContainingType": "Basket.API.Features.BasketEndpoints",
+    "Method": "HandleCheckoutBasket",
+    "RelativePath": "basket/checkout",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Basket.API.Features.CheckoutBasket.CheckoutBasketRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 202
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Basket"
+    ],
+    "EndpointName": "CheckoutBasket"
   }
 ]

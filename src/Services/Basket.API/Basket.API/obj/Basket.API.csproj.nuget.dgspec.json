@@ -80,6 +80,10 @@
               "target": "Package",
               "version": "[8.15.4, )"
             },
+            "MassTransit.RabbitMQ": {
+              "target": "Package",
+              "version": "[8.5.5, )"
+            },
             "MediatR": {
               "target": "Package",
               "version": "[13.1.0, )"

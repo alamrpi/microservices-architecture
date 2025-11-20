@@ -211,3 +211,7 @@ D:\Resources\Projects\E-Shop-Global\src\Services\Basket.API\Basket.API\bin\Debug
 D:\Resources\Projects\E-Shop-Global\src\Services\Basket.API\Basket.API\bin\Debug\net9.0\Grpc.Net.ClientFactory.dll
 D:\Resources\Projects\E-Shop-Global\src\Services\Basket.API\Basket.API\bin\Debug\net9.0\Grpc.Net.Common.dll
 D:\Resources\Projects\E-Shop-Global\src\Services\Basket.API\Basket.API\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+D:\Resources\Projects\E-Shop-Global\src\Services\Basket.API\Basket.API\bin\Debug\net9.0\MassTransit.dll
+D:\Resources\Projects\E-Shop-Global\src\Services\Basket.API\Basket.API\bin\Debug\net9.0\MassTransit.Abstractions.dll
+D:\Resources\Projects\E-Shop-Global\src\Services\Basket.API\Basket.API\bin\Debug\net9.0\MassTransit.RabbitMqTransport.dll
+D:\Resources\Projects\E-Shop-Global\src\Services\Basket.API\Basket.API\bin\Debug\net9.0\RabbitMQ.Client.dll

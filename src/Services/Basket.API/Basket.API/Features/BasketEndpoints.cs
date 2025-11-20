@@ -1,8 +1,10 @@
 using Basket.API.Common;
 using Basket.API.Core.Entities;
+using Basket.API.Features.CheckoutBasket;
+using Basket.API.Features.DeleteBasket;
 using Basket.API.Features.GetBasket;
 using Basket.API.Features.StoreBasket;
-using Basket.API.Features.DeleteBasket;
+using Mapster;
 using MediatR;
 
 namespace Basket.API.Features;
@@ -31,6 +33,25 @@ public class BasketEndpoints : IEndpointDefinition
         group.MapDelete("/{userName}", HandleDeleteBasket)
             .WithName("DeleteBasket")
             .Produces(StatusCodes.Status204NoContent);
+
+        group.MapPost("/checkout", HandleCheckoutBasket)
+        .WithName("CheckoutBasket")
+        .Produces(StatusCodes.Status202Accepted) 
+        .Produces(StatusCodes.Status400BadRequest);
+    }
+
+    private static async Task<IResult> HandleCheckoutBasket(CheckoutBasketRequest request, ISender sender)
+    {
+        var command = request.Adapt<CheckoutBasketCommand>();
+
+        var result = await sender.Send(command);
+
+        if (!result)
+        {
+            return Results.BadRequest("Basket not found");
+        }
+
+        return Results.Accepted();
     }
 
     private static async Task<IResult> HandleGetBasket(string userName, ISender sender)
