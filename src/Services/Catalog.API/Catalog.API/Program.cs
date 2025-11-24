@@ -22,12 +22,19 @@ builder.Services.AddEndpointDefinitions(typeof(Program));
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+
 var app = builder.Build();
 
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
+
+    using (var scope = app.Services.CreateScope())
+    {
+        var context = scope.ServiceProvider.GetRequiredService<Catalog.API.Infrastructure.Data.CatalogContext>();
+        context.Database.Migrate();
+    }
 }
 
 app.UseHttpsRedirection();

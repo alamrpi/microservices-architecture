@@ -3,40 +3,12 @@
   "WorkspaceRootPath": "D:\\Resources\\Projects\\E-Shop-Global\\src\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9D68A421-5B00-418A-B3F6-965191CA6876}|Services\\Basket.API\\Basket.API\\Basket.API.csproj|d:\\resources\\projects\\e-shop-global\\src\\services\\basket.api\\basket.api\\features\\basketendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D68A421-5B00-418A-B3F6-965191CA6876}|Services\\Basket.API\\Basket.API\\Basket.API.csproj|solutionrelative:services\\basket.api\\basket.api\\features\\basketendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{75167F35-DBCC-4BF0-A0DB-31A085F2936B}|Services\\Catalog.API\\Catalog.API\\Catalog.API.csproj|d:\\resources\\projects\\e-shop-global\\src\\services\\catalog.api\\catalog.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{75167F35-DBCC-4BF0-A0DB-31A085F2936B}|Services\\Catalog.API\\Catalog.API\\Catalog.API.csproj|solutionrelative:services\\catalog.api\\catalog.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D68A421-5B00-418A-B3F6-965191CA6876}|Services\\Basket.API\\Basket.API\\Basket.API.csproj|d:\\resources\\projects\\e-shop-global\\src\\services\\basket.api\\basket.api\\features\\checkoutbasket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D68A421-5B00-418A-B3F6-965191CA6876}|Services\\Basket.API\\Basket.API\\Basket.API.csproj|solutionrelative:services\\basket.api\\basket.api\\features\\checkoutbasket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D68A421-5B00-418A-B3F6-965191CA6876}|Services\\Basket.API\\Basket.API\\Basket.API.csproj|d:\\resources\\projects\\e-shop-global\\src\\services\\basket.api\\basket.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D68A421-5B00-418A-B3F6-965191CA6876}|Services\\Basket.API\\Basket.API\\Basket.API.csproj|solutionrelative:services\\basket.api\\basket.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D68A421-5B00-418A-B3F6-965191CA6876}|Services\\Basket.API\\Basket.API\\Basket.API.csproj|d:\\resources\\projects\\e-shop-global\\src\\services\\basket.api\\basket.api\\core\\dtos\\basketcheckoutevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D68A421-5B00-418A-B3F6-965191CA6876}|Services\\Basket.API\\Basket.API\\Basket.API.csproj|solutionrelative:services\\basket.api\\basket.api\\core\\dtos\\basketcheckoutevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D68A421-5B00-418A-B3F6-965191CA6876}|Services\\Basket.API\\Basket.API\\Basket.API.csproj|d:\\resources\\projects\\e-shop-global\\src\\services\\basket.api\\basket.api\\features\\storebasket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D68A421-5B00-418A-B3F6-965191CA6876}|Services\\Basket.API\\Basket.API\\Basket.API.csproj|solutionrelative:services\\basket.api\\basket.api\\features\\storebasket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{538935CA-456B-4EB5-89A5-F8FA2A736DC6}|Services\\Discount.API\\Discount.API\\Discount.API.csproj|d:\\resources\\projects\\e-shop-global\\src\\services\\discount.api\\discount.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{538935CA-456B-4EB5-89A5-F8FA2A736DC6}|Services\\Discount.API\\Discount.API\\Discount.API.csproj|solutionrelative:services\\discount.api\\discount.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{538935CA-456B-4EB5-89A5-F8FA2A736DC6}|Services\\Discount.API\\Discount.API\\Discount.API.csproj|d:\\resources\\projects\\e-shop-global\\src\\services\\discount.api\\discount.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{538935CA-456B-4EB5-89A5-F8FA2A736DC6}|Services\\Discount.API\\Discount.API\\Discount.API.csproj|solutionrelative:services\\discount.api\\discount.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{538935CA-456B-4EB5-89A5-F8FA2A736DC6}|Services\\Discount.API\\Discount.API\\Discount.API.csproj|d:\\resources\\projects\\e-shop-global\\src\\services\\discount.api\\discount.api\\services\\discountserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{538935CA-456B-4EB5-89A5-F8FA2A736DC6}|Services\\Discount.API\\Discount.API\\Discount.API.csproj|solutionrelative:services\\discount.api\\discount.api\\services\\discountserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D68A421-5B00-418A-B3F6-965191CA6876}|Services\\Basket.API\\Basket.API\\Basket.API.csproj|d:\\resources\\projects\\e-shop-global\\src\\services\\basket.api\\basket.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{9D68A421-5B00-418A-B3F6-965191CA6876}|Services\\Basket.API\\Basket.API\\Basket.API.csproj|solutionrelative:services\\basket.api\\basket.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{538935CA-456B-4EB5-89A5-F8FA2A736DC6}|Services\\Discount.API\\Discount.API\\Discount.API.csproj|d:\\resources\\projects\\e-shop-global\\src\\services\\discount.api\\discount.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{538935CA-456B-4EB5-89A5-F8FA2A736DC6}|Services\\Discount.API\\Discount.API\\Discount.API.csproj|solutionrelative:services\\discount.api\\discount.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,120 +18,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BasketEndpoints.cs",
-              "DocumentMoniker": "D:\\Resources\\Projects\\E-Shop-Global\\src\\Services\\Basket.API\\Basket.API\\Features\\BasketEndpoints.cs",
-              "RelativeDocumentMoniker": "Services\\Basket.API\\Basket.API\\Features\\BasketEndpoints.cs",
-              "ToolTip": "D:\\Resources\\Projects\\E-Shop-Global\\src\\Services\\Basket.API\\Basket.API\\Features\\BasketEndpoints.cs",
-              "RelativeToolTip": "Services\\Basket.API\\Basket.API\\Features\\BasketEndpoints.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAYwC4AAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-19T16:57:40.064Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CheckoutBasket.cs",
-              "DocumentMoniker": "D:\\Resources\\Projects\\E-Shop-Global\\src\\Services\\Basket.API\\Basket.API\\Features\\CheckoutBasket.cs",
-              "RelativeDocumentMoniker": "Services\\Basket.API\\Basket.API\\Features\\CheckoutBasket.cs",
-              "ToolTip": "D:\\Resources\\Projects\\E-Shop-Global\\src\\Services\\Basket.API\\Basket.API\\Features\\CheckoutBasket.cs",
-              "RelativeToolTip": "Services\\Basket.API\\Basket.API\\Features\\CheckoutBasket.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAAwAYAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-19T16:55:34.105Z",
+              "Title": "Dockerfile",
+              "DocumentMoniker": "D:\\Resources\\Projects\\E-Shop-Global\\src\\Services\\Discount.API\\Discount.API\\Dockerfile",
+              "RelativeDocumentMoniker": "Services\\Discount.API\\Discount.API\\Dockerfile",
+              "ToolTip": "D:\\Resources\\Projects\\E-Shop-Global\\src\\Services\\Discount.API\\Discount.API\\Dockerfile",
+              "RelativeToolTip": "Services\\Discount.API\\Discount.API\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-11-24T10:02:24.795Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BasketCheckoutEvent.cs",
-              "DocumentMoniker": "D:\\Resources\\Projects\\E-Shop-Global\\src\\Services\\Basket.API\\Basket.API\\Core\\Dtos\\BasketCheckoutEvent.cs",
-              "RelativeDocumentMoniker": "Services\\Basket.API\\Basket.API\\Core\\Dtos\\BasketCheckoutEvent.cs",
-              "ToolTip": "D:\\Resources\\Projects\\E-Shop-Global\\src\\Services\\Basket.API\\Basket.API\\Core\\Dtos\\BasketCheckoutEvent.cs",
-              "RelativeToolTip": "Services\\Basket.API\\Basket.API\\Core\\Dtos\\BasketCheckoutEvent.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-19T16:53:03.648Z",
+              "DocumentIndex": 0,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "D:\\Resources\\Projects\\E-Shop-Global\\src\\Services\\Catalog.API\\Catalog.API\\Dockerfile",
+              "RelativeDocumentMoniker": "Services\\Catalog.API\\Catalog.API\\Dockerfile",
+              "ToolTip": "D:\\Resources\\Projects\\E-Shop-Global\\src\\Services\\Catalog.API\\Catalog.API\\Dockerfile",
+              "RelativeToolTip": "Services\\Catalog.API\\Catalog.API\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-11-24T10:02:16.98Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Resources\\Projects\\E-Shop-Global\\src\\Services\\Basket.API\\Basket.API\\Program.cs",
-              "RelativeDocumentMoniker": "Services\\Basket.API\\Basket.API\\Program.cs",
-              "ToolTip": "D:\\Resources\\Projects\\E-Shop-Global\\src\\Services\\Basket.API\\Basket.API\\Program.cs",
-              "RelativeToolTip": "Services\\Basket.API\\Basket.API\\Program.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAAAB4AAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-19T09:59:32.368Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "StoreBasket.cs",
-              "DocumentMoniker": "D:\\Resources\\Projects\\E-Shop-Global\\src\\Services\\Basket.API\\Basket.API\\Features\\StoreBasket.cs",
-              "RelativeDocumentMoniker": "Services\\Basket.API\\Basket.API\\Features\\StoreBasket.cs",
-              "ToolTip": "D:\\Resources\\Projects\\E-Shop-Global\\src\\Services\\Basket.API\\Basket.API\\Features\\StoreBasket.cs",
-              "RelativeToolTip": "Services\\Basket.API\\Basket.API\\Features\\StoreBasket.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAYwB0AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-19T09:58:03.296Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "DiscountServiceImpl.cs",
-              "DocumentMoniker": "D:\\Resources\\Projects\\E-Shop-Global\\src\\Services\\Discount.API\\Discount.API\\Services\\DiscountServiceImpl.cs",
-              "RelativeDocumentMoniker": "Services\\Discount.API\\Discount.API\\Services\\DiscountServiceImpl.cs",
-              "ToolTip": "D:\\Resources\\Projects\\E-Shop-Global\\src\\Services\\Discount.API\\Discount.API\\Services\\DiscountServiceImpl.cs",
-              "RelativeToolTip": "Services\\Discount.API\\Discount.API\\Services\\DiscountServiceImpl.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-19T09:56:47.864Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "D:\\Resources\\Projects\\E-Shop-Global\\src\\Services\\Discount.API\\Discount.API\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Services\\Discount.API\\Discount.API\\Properties\\launchSettings.json",
-              "ToolTip": "D:\\Resources\\Projects\\E-Shop-Global\\src\\Services\\Discount.API\\Discount.API\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Services\\Discount.API\\Discount.API\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-11-19T09:55:14.389Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "D:\\Resources\\Projects\\E-Shop-Global\\src\\Services\\Basket.API\\Basket.API\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Services\\Basket.API\\Basket.API\\Properties\\launchSettings.json",
-              "ToolTip": "D:\\Resources\\Projects\\E-Shop-Global\\src\\Services\\Basket.API\\Basket.API\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Services\\Basket.API\\Basket.API\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-11-19T09:53:24.567Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Resources\\Projects\\E-Shop-Global\\src\\Services\\Discount.API\\Discount.API\\Program.cs",
-              "RelativeDocumentMoniker": "Services\\Discount.API\\Discount.API\\Program.cs",
-              "ToolTip": "D:\\Resources\\Projects\\E-Shop-Global\\src\\Services\\Discount.API\\Discount.API\\Program.cs",
-              "RelativeToolTip": "Services\\Discount.API\\Discount.API\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-19T09:52:02.146Z"
             }
           ]
         }

@@ -1,0 +1,16 @@
+D:\Resources\Projects\E-Shop-Global\src\Services\Ordering\Ordering.Application\bin\Debug\net9.0\Ordering.Application.deps.json
+D:\Resources\Projects\E-Shop-Global\src\Services\Ordering\Ordering.Application\bin\Debug\net9.0\Ordering.Application.dll
+D:\Resources\Projects\E-Shop-Global\src\Services\Ordering\Ordering.Application\bin\Debug\net9.0\Ordering.Application.pdb
+D:\Resources\Projects\E-Shop-Global\src\Services\Ordering\Ordering.Application\bin\Debug\net9.0\Ordering.Domain.dll
+D:\Resources\Projects\E-Shop-Global\src\Services\Ordering\Ordering.Application\bin\Debug\net9.0\Ordering.Domain.pdb
+D:\Resources\Projects\E-Shop-Global\src\Services\Ordering\Ordering.Application\obj\Debug\net9.0\Ordering.Application.csproj.AssemblyReference.cache
+D:\Resources\Projects\E-Shop-Global\src\Services\Ordering\Ordering.Application\obj\Debug\net9.0\Ordering.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Resources\Projects\E-Shop-Global\src\Services\Ordering\Ordering.Application\obj\Debug\net9.0\Ordering.Application.AssemblyInfoInputs.cache
+D:\Resources\Projects\E-Shop-Global\src\Services\Ordering\Ordering.Application\obj\Debug\net9.0\Ordering.Application.AssemblyInfo.cs
+D:\Resources\Projects\E-Shop-Global\src\Services\Ordering\Ordering.Application\obj\Debug\net9.0\Ordering.Application.csproj.CoreCompileInputs.cache
+D:\Resources\Projects\E-Shop-Global\src\Services\Ordering\Ordering.Application\obj\Debug\net9.0\Ordering.Application.sourcelink.json
+D:\Resources\Projects\E-Shop-Global\src\Services\Ordering\Ordering.Application\obj\Debug\net9.0\Ordering.50CBBEA9.Up2Date
+D:\Resources\Projects\E-Shop-Global\src\Services\Ordering\Ordering.Application\obj\Debug\net9.0\Ordering.Application.dll
+D:\Resources\Projects\E-Shop-Global\src\Services\Ordering\Ordering.Application\obj\Debug\net9.0\refint\Ordering.Application.dll
+D:\Resources\Projects\E-Shop-Global\src\Services\Ordering\Ordering.Application\obj\Debug\net9.0\Ordering.Application.pdb
+D:\Resources\Projects\E-Shop-Global\src\Services\Ordering\Ordering.Application\obj\Debug\net9.0\ref\Ordering.Application.dll

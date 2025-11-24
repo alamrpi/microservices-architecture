@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "7noqepfvde4=",
+  "success": true,
+  "projectFilePath": "D:\\Resources\\Projects\\E-Shop-Global\\src\\ApiGateway\\ApiGateway.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Asus\\.nuget\\packages\\system.io.hashing\\8.0.0\\system.io.hashing.8.0.0.nupkg.sha512",
+    "C:\\Users\\Asus\\.nuget\\packages\\yarp.reverseproxy\\2.3.0\\yarp.reverseproxy.2.3.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -13,6 +13,14 @@
       {
         "Path": "Services\\Basket.API\\Basket.API\\Basket.API.csproj",
         "Action": "Start"
+      },
+      {
+        "Path": "Services\\Ordering\\Ordering.API\\Ordering.API.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "ApiGateway\\ApiGateway.csproj",
+        "Action": "Start"
       }
     ]
   }

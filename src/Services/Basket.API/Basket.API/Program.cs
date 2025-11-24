@@ -49,6 +49,8 @@ builder.Services.AddStackExchangeRedisCache(options =>
 
 builder.Services.AddEndpointDefinitions(typeof(Program));
 
+
+
 var app = builder.Build();
 
 if (app.Environment.IsDevelopment())
